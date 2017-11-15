@@ -1,16 +1,12 @@
 '''
-Leet Code problem 55: https://leetcode.com/problems/jump-game/description/
+Leetcode problem 32. Longest Valid Parentheses
+https://leetcode.com/problems/longest-valid-parentheses/description/
 
-Given an array of non-negative integers, you are initially positioned at the first index of the array.
+Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
 
-Each element in the array represents your maximum jump length at that position.
+For "(()", the longest valid parentheses substring is "()", which has length = 2.
 
-Determine if you are able to reach the last index.
-
-For example:
-A = [2,3,1,1,4], return true.
-
-A = [3,2,1,0,4], return false.
+Another example is ")()())", where the longest valid parentheses substring is "()()", which has length = 4.
 '''
 
 import logging
